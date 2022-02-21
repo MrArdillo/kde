@@ -2,4 +2,4 @@ yay -Sy --noconfirm sddm plasma-meta kde-system-meta kde-utilities-meta dolphin-
 sudo systemctl enable sddm.service
 sudo systemctl enable ufw
 sudo mkdir -p /etc/skel
-sudo cp -r .config /etc/skel/.
+sudo cp -r skel/.config /etc/skel/.
