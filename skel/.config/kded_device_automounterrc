@@ -1,0 +1,17 @@
+[Devices][/org/freedesktop/UDisks2/block_devices/sda1]
+EverMounted=true
+Icon=drive-harddisk
+LastNameSeen=Unidad interna de 512,0 MiB (sda1)
+LastSeenMounted=true
+
+[Devices][/org/freedesktop/UDisks2/block_devices/sda2]
+EverMounted=true
+Icon=drive-harddisk-root
+LastNameSeen=Unidad interna de 30,0 GiB (sda2)
+LastSeenMounted=true
+
+[Devices][/org/freedesktop/UDisks2/block_devices/sda3]
+EverMounted=true
+Icon=drive-harddisk
+LastNameSeen=Unidad interna de 49,5 GiB (sda3)
+LastSeenMounted=true
