@@ -4,3 +4,4 @@ sudo systemctl enable sddm.service && \
 sudo systemctl enable ufw && \
 sudo mkdir -p /etc/skel && \
 sudo cp -r skel /etc
+sudo cp -r Sweet /usr/share/themes/.
