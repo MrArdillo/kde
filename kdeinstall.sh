@@ -3,8 +3,6 @@ yay -S --noconfirm  ufw clamtk firefox ferdi-git onedriver vlc alacritty libreof
 sudo systemctl enable sddm.service && \
 sudo systemctl enable ufw && \
 sudo systemctl enable fstrim.timer && \
-sudo mkdir -p /etc/skel && \
-sudo cp -r skel /etc && \
 git clone https://github.com/medusalix/xow && \
 cd xow && \
 make BUILD=RELEASE && \
