@@ -1,5 +1,5 @@
 yay -Sy --noconfirm sddm plasma-meta kde-system-meta kde-utilities-meta dolphin-plugins packagekit-qt5 && \
-yay -S --noconfirm  ufw clamtk firefox telegram-desktop onedriver vlc alacritty libreoffice-fresh-es lutris steam wine discord gparted mc nano && \
+yay -S --noconfirm  ufw clamtk firefox ferdi-git onedriver vlc alacritty libreoffice-fresh-es lutris steam wine gparted mc nano && \
 sudo systemctl enable sddm.service && \
 sudo systemctl enable ufw && \
 sudo systemctl enable fstrim.timer && \
