@@ -3,6 +3,8 @@ yay -S --noconfirm  ufw clamtk firefox ferdi-git onedriver vlc alacritty libreof
 sudo systemctl enable sddm.service && \
 sudo systemctl enable ufw && \
 sudo systemctl enable fstrim.timer && \
+sudo systemctl enable bluetooth.service && \
+sudo systemctl start bluetooth.service && \
 git clone https://github.com/medusalix/xow && \
 cd xow && \
 make BUILD=RELEASE && \
