@@ -8,10 +8,6 @@ sudo systemctl enable ufw && \
 sudo systemctl enable fstrim.timer && \
 sudo systemctl enable samba.service && \
 sudo systemctl enable bluetooth.service && \
-git clone https://github.com/medusalix/xow && \
-cd xow && \
-make BUILD=RELEASE && \
-sudo make install && \
 sudo systemctl enable xow && \
 sudo systemctl start xow && \
-sudo rm -r xow
+echo "instalación completada"
