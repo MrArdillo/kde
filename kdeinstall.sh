@@ -3,6 +3,7 @@ yay -S --noconfirm sddm plasma-meta kde-system-meta kde-utilities-meta dolphin-p
 yay -S --noconfirm samba kdenetwork-filesharing && \
 yay -S --noconfirm  ufw clamtk firefox discord onedriver vlc alacritty libreoffice-fresh-es lutris steam wine gparted mc nano && \
 sudo systemctl enable sddm.service && \
+sudo systemctl enable cups.service && \
 sudo systemctl enable ufw && \
 sudo systemctl enable fstrim.timer && \
 sudo systemctl enable samba.service && \
