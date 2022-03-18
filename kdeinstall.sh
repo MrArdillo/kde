@@ -1,4 +1,7 @@
-sudo pacman -Sy --noconfirm xf86-video-vesa nvidia lib32-nvidia-utils nvidia-utils nvidia-settings nvidia-dkms vulkan-icd-loader lib32-vulkan-icd-loader && \
+echo -e "\n>>Instalar los drivers de NVIDIA? (solo si no se instalaron antes (s/N): \c" && read ANS
+if [[ $ANS = s ]] || [[ $ANS = si ]] || [[ $ANS = Si ]] || [[ $ANS = S ]]
+  then LDAP=true sudo pacman -Sy --noconfirm xf86-video-vesa nvidia lib32-nvidia-utils nvidia-utils nvidia-settings nvidia-dkms vulkan-icd-loader lib32-vulkan-icd-loader
+  fi
 yay -S --noconfirm sddm plasma-meta kde-system-meta kde-utilities-meta dolphin-plugins optimus-manager optimus-manager-qt packagekit-qt5 print-manager cups system-config-printer && \
 yay -S --noconfirm samba kdenetwork-filesharing && \
 yay -S --noconfirm  ufw clamtk firefox-i18n-es-es discord onedriver flatpak vlc xow-git alacritty lutris steam wine heroic-games-launcher-bin gparted mc nano && \
