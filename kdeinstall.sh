@@ -1,4 +1,4 @@
-echo -e "\n>>Instalar los drivers de NVIDIA? (solo si no se instalaron antes (s/N): \c" && read ANS
+echo -e "\n>>Instalar los drivers de NVIDIA? (solo si no se instalaron antes) (s/N): \c" && read ANS
 if [[ $ANS = s ]] || [[ $ANS = si ]] || [[ $ANS = Si ]] || [[ $ANS = S ]]
   then LDAP=true sudo pacman -Sy --noconfirm xf86-video-vesa nvidia lib32-nvidia-utils nvidia-utils nvidia-settings nvidia-dkms vulkan-icd-loader lib32-vulkan-icd-loader
   fi
