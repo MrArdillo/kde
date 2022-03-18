@@ -1,7 +1,7 @@
 sudo pacman -Sy --noconfirm xf86-video-vesa nvidia lib32-nvidia-utils nvidia-utils nvidia-settings nvidia-dkms vulkan-icd-loader lib32-vulkan-icd-loader && \
 yay -S --noconfirm sddm plasma-meta kde-system-meta kde-utilities-meta dolphin-plugins optimus-manager optimus-manager-qt packagekit-qt5 print-manager cups system-config-printer && \
 yay -S --noconfirm samba kdenetwork-filesharing && \
-yay -S --noconfirm  ufw clamtk firefox discord onedriver flatpak vlc xow-git alacritty lutris steam wine heroic-games-launcher-bin gparted mc nano && \
+yay -S --noconfirm  ufw clamtk firefox-i18n-es-es discord onedriver flatpak vlc xow-git alacritty lutris steam wine heroic-games-launcher-bin gparted mc nano && \
 sudo flatpak install flathub org.onlyoffice.desktopeditors && \
 sudo systemctl enable sddm.service && \
 sudo systemctl enable cups.service && \
