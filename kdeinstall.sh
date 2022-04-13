@@ -19,7 +19,9 @@ esac
 fi && \		
 yay -S --noconfirm sddm plasma-meta kde-system-meta kde-utilities-meta kaccounts-providers dolphin-plugins packagekit-qt5 print-manager cups system-config-printer && \
 yay -S --noconfirm samba kdenetwork-filesharing && \
-yay -S --noconfirm ttf-ms-fonts ufw clamtk firefox-i18n-es-es discord onedriver libreoffice-fresh-es okular flatpak vlc xow-git lutris steam wine heroic-games-launcher-bin gparted mc nano && \
+yay -S --noconfirm ufw clamtk firefox-i18n-es-es discord onedriver libreoffice-fresh-es okular flatpak vlc xow-git lutris steam wine heroic-games-launcher-bin gparted mc nano && \
+yay -S ttf-ms-fonts &&\
+y && \
 sudo systemctl enable sddm.service && \
 sudo systemctl enable cups.service && \
 sudo systemctl enable ufw && \
