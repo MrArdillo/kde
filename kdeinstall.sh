@@ -27,7 +27,7 @@ sudo systemctl enable fstrim.timer && \
 sudo systemctl enable samba.service && \
 sudo systemctl enable bluetooth.service && \
 sudo systemctl enable optimus-manager.service ; \
-sudo xow-get-firmware.sh -y && \
+sudo xow-get-firmware.sh --skip-disclaimer && \
 sudo systemctl enable xow && \
 sudo systemctl start xow && \
 echo "instalación completada"
