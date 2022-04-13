@@ -17,12 +17,9 @@ then
 			echo "pacman --noconfirm -Sy xf86-video-vesa xf86-video-intel lib32-mesa mesa vulkan-intel lib32-vulkan-intel vulkan-icd-loader lib32-vulkan-icd-loader optimus-manager optimus-manager-qt   || exit 1" | ARCH && DONE || ERROR ;;
 esac
 fi && \		
-yay -S --noconfirm sddm plasma-meta kde-system-meta kde-utilities-meta kaccounts-providers dolphin-plugins packagekit-qt5 print-manager cups system-config-printer && \
+yay -S --noconfirm sddm plasma-meta libpamac-nosnap pamac-nosnap kde-system-meta kde-utilities-meta kaccounts-providers dolphin-plugins packagekit-qt5 print-manager cups system-config-printer && \
 yay -S --noconfirm samba kdenetwork-filesharing && \
 yay -S --noconfirm ufw clamtk firefox-i18n-es-es discord onedriver libreoffice-fresh-es okular flatpak vlc xow-git lutris steam wine heroic-games-launcher-bin gparted mc nano && \
-yay -S ttf-ms-fonts &&\
-y && \
-echo "y" && \
 sudo systemctl enable sddm.service && \
 sudo systemctl enable cups.service && \
 sudo systemctl enable ufw && \
