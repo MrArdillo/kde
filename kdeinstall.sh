@@ -12,5 +12,5 @@ sudo systemctl enable optimus-manager.service ; \
 sudo xow-get-firmware.sh --skip-disclaimer && \
 sudo systemctl enable xow && \
 sudo systemctl start xow && \
-konsave -i jorge.knsv && \
+sudo konsave -i jorge.knsv && \
 echo "instalación completada"
