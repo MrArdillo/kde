@@ -5,7 +5,6 @@ yay -S konsave && \
 sudo systemctl enable sddm.service && \
 sudo systemctl enable cups.service && \
 sudo systemctl enable ufw && \
-sudo konsave -i jorge.knsv && \
 sudo systemctl enable fstrim.timer && \
 sudo systemctl enable samba.service && \
 sudo systemctl enable bluetooth.service && \
@@ -13,4 +12,5 @@ sudo systemctl enable optimus-manager.service ; \
 sudo xow-get-firmware.sh --skip-disclaimer && \
 sudo systemctl enable xow && \
 sudo systemctl start xow && \
+konsave -i jorge.knsv && \
 echo "instalación completada"
