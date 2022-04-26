@@ -1,0 +1,26 @@
+[$Version]
+update_info=ksmserver_update_loginMode_value.upd:ksmserver_update_loginMode_value_default_enum
+
+[LegacySession: saved at previous logout]
+count=0
+
+[Session: saved at previous logout]
+clientId1=107aa27935000165081031100000008890005
+clientId2=107aa27935000164703167700000008180009
+clientId3=107aa27935000165081031100000008890007
+count=3
+program1=/usr/lib/DiscoverNotifier
+program2=/usr/bin/optimus-manager-qt
+program3=pulseaudio
+restartCommand1=/usr/lib/DiscoverNotifier,-session,107aa27935000165081031100000008890005_1650828757_419216
+restartCommand2=/usr/bin/optimus-manager-qt,-session,107aa27935000164703167700000008180009_1650828757_419220
+restartCommand3=
+restartStyleHint1=0
+restartStyleHint2=0
+restartStyleHint3=0
+userId1=jorge
+userId2=jorge
+userId3=jorge
+
+[SubSession: 6017b4cd-5152-4710-b42c-dd9b50e6516f]
+count=0
