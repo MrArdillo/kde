@@ -3,7 +3,6 @@ yay -S --noconfirm samba kdenetwork-filesharing && \
 yay -S --noconfirm ufw clamtk firefox-i18n-es-es discord onedriver ttf-ms-fonts libreoffice-fresh-es okular flatpak vlc xow-git lutris steam wine heroic-games-launcher-bin gparted mc nano konsave && \
 sudo systemctl enable sddm.service && \
 sudo systemctl enable cups.service && \
-konsave -i jorge.knsv && \
 sudo systemctl enable ufw && \
 sudo systemctl enable fstrim.timer && \
 sudo systemctl enable samba.service && \
@@ -12,4 +11,7 @@ sudo systemctl enable optimus-manager.service ; \
 sudo xow-get-firmware.sh --skip-disclaimer && \
 sudo systemctl enable xow && \
 sudo systemctl start xow && \
+sudo cp jorge.knsv /mnt/. && \
+konsave -i /mnt/jorge.knsv && \
+konsave -a jorge && \
 echo "instalación completada"
