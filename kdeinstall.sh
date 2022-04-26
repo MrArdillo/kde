@@ -1,6 +1,6 @@
 yay -S --noconfirm sddm plasma-meta kde-system-meta kde-utilities-meta kaccounts-providers dolphin-plugins packagekit-qt5 spectacle print-manager cups system-config-printer candy-icons-git && \
 yay -S --noconfirm samba kdenetwork-filesharing && \
-yay -S --noconfirm ufw clamtk firefox-i18n-es-es discord onedriver ttf-ms-fonts libreoffice-fresh-es okular flatpak flatseal vlc xow-git lutris steam wine piper heroic-games-launcher-bin gparted mc nano konsave && \
+yay -S --noconfirm ufw clamtk firefox-i18n-es-es discord onedriver ttf-ms-fonts libreoffice-fresh-es okular flatpak vlc xow-git lutris steam wine piper heroic-games-launcher-bin gparted mc nano konsave && \
 sudo systemctl enable sddm.service && \
 sudo systemctl enable cups.service && \
 sudo systemctl enable ufw && \
@@ -12,5 +12,6 @@ sudo xow-get-firmware.sh --skip-disclaimer && \
 sudo systemctl enable xow && \
 sudo systemctl start xow && \
 sudo cp jorge.knsv /mnt/. && \
-cp Entorno_Jorge.sh $HOME/. && \
+sudo mkdir -p /etc/skel/Escritorio && \
+cp Entorno_Jorge.sh etc/skel/Escritorio/. && \
 echo "instalación completada"
