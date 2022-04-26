@@ -5,6 +5,7 @@ yay -S --noconfirm ufw clamtk firefox-i18n-es-es discord onedriver ttf-ms-fonts 
 sudo systemctl enable sddm.service && \
 sudo systemctl enable cups.service && \
 konsave -i jorge.knsv && \
+konsave -a jorge.knsv && \
 sudo systemctl enable ufw && \
 sudo systemctl enable fstrim.timer && \
 sudo systemctl enable samba.service && \
