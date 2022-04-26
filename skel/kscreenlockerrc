@@ -4,6 +4,3 @@ update_info=kscreenlocker.upd:0.1-autolock
 [Daemon]
 Autolock=false
 LockGrace=10
-
-[Greeter][Wallpaper][org.kde.image][General]
-Image=/home/jorge/Imágenes/3_Haven_SunsetKiss.png
