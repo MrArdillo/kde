@@ -91,7 +91,7 @@ DialogHeight=540
 DialogWidth=720
 
 [Containments][2][Applets][71][Configuration][General]
-launchers=applications:systemsettings.desktop,applications:org.kde.konsole.desktop,preferred://filemanager,preferred://browser,applications:microsoft-edge.desktop,applications:steam.desktop,applications:com.heroicgameslauncher.hgl.desktop,applications:Launchers--origin-.desktop,applications:Launchers--uplay-.desktop,file:///home/jorge/.local/share/applications/discord.desktop
+launchers=applications:systemsettings.desktop,applications:org.kde.konsole.desktop
 maxStripes=1
 separateLaunchers=false
 
@@ -128,9 +128,6 @@ PreloadWeight=0
 ToolBoxButtonState=topcenter
 ToolBoxButtonX=444
 
-[Containments][21][Wallpaper][org.kde.image][General]
-Image=file:///home/jorge/Imágenes/2021-11-02.png
-SlidePaths=/usr/share/wallpapers
 
 [Containments][24]
 activityId=9dfc1dec-9dd3-445b-aa44-0ce4d711e2c1
