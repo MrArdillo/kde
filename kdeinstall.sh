@@ -12,6 +12,5 @@ sudo xow-get-firmware.sh --skip-disclaimer && \
 sudo systemctl enable xow && \
 sudo systemctl start xow && \
 sudo cp jorge.knsv /mnt/. && \
-konsave -i /mnt/jorge.knsv && \
-konsave -a jorge && \
+sudo cp Entorno_Jorge.sh $HOME/Escritorio/. && \
 echo "instalación completada"
