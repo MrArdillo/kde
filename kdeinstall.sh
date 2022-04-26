@@ -4,8 +4,8 @@ yay -S --noconfirm samba kdenetwork-filesharing && \
 yay -S --noconfirm ufw clamtk firefox-i18n-es-es discord onedriver ttf-ms-fonts libreoffice-fresh-es okular flatpak vlc xow-git lutris steam wine heroic-games-launcher-bin gparted mc nano && \
 sudo systemctl enable sddm.service && \
 sudo systemctl enable cups.service && \
-su %USER konsave -i jorge.knsv && \
-su %USER konsave -a jorge && \
+su -c -p %USER konsave -i jorge.knsv && \
+su -c -p %USER konsave -a jorge.knsv && \
 sudo systemctl enable ufw && \
 sudo systemctl enable fstrim.timer && \
 sudo systemctl enable samba.service && \
