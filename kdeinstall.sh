@@ -11,6 +11,6 @@ sudo xow-get-firmware.sh --skip-disclaimer && \
 sudo systemctl enable xow && \
 sudo systemctl start xow && \
 sudo cp jorge.knsv /mnt/. && \
-#sudo mkdir -p /etc/skel/Escritorio && \
-#cp Entorno_Jorge.sh /etc/skel/Escritorio/. && \
+sudo mkdir -p /etc/skel/Escritorio && \
+cp Entorno_Jorge.sh /etc/skel/Escritorio/. && \
 echo "instalación completada"
