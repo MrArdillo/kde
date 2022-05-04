@@ -9,9 +9,9 @@ sudo systemctl enable samba.service && \
 sudo systemctl enable bluetooth.service && \
 sudo xow-get-firmware.sh --skip-disclaimer && \
 sudo systemctl enable xow && \
-#sudo cp jorge.knsv /mnt/. && \
-#sudo mkdir -p /etc/skel/Escritorio && \
-#cp Entorno_Jorge.sh /etc/skel/Escritorio/. && \
+sudo cp jorge.knsv /mnt/. && \
+sudo mkdir -p /etc/skel/Escritorio && \
+cp Entorno_Jorge.sh /etc/skel/Escritorio/. && \
 konsave -i jorge.knsv && \
 konsave -a jorge && \
 echo "instalación completada"
