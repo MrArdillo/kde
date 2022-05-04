@@ -1,4 +1,4 @@
-yay -Sy --noconfirm sddm plasma-meta kde-system-meta kde-utilities-meta kaccounts-providers dolphin-plugins packagekit-qt5 spectacle cups system-config-printer && \
+yay -Sy --noconfirm egl-wayland sddm plasma-meta plasma-wayland-session kde-system-meta kde-utilities-meta kaccounts-providers dolphin-plugins packagekit-qt5 spectacle cups system-config-printer && \
 yay -S --noconfirm samba kdenetwork-filesharing candy-icons-git konsave && \
 yay -S --noconfirm ufw clamtk firefox-i18n-es-es discord onedriver ttf-ms-fonts libreoffice-fresh-es okular flatpak vlc xow-git lutris steam wine heroic-games-launcher-bin gparted mc nano && \
 sudo systemctl enable sddm.service && \
