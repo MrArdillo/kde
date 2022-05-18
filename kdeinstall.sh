@@ -10,7 +10,7 @@ sudo systemctl enable bluetooth.service && \
 #sudo xone-get-firmware.sh --skip-disclaimer && \
 sudo cp jorge.knsv /mnt/. && \
 sudo mkdir -p /etc/skel/Escritorio && \
-cp Entorno_Jorge.sh /etc/skel/Escritorio/. && \
+sudo cp Entorno_Jorge.sh /etc/skel/Escritorio/. && \
 konsave -i jorge.knsv && \
 konsave -a jorge && \
 echo "instalación completada"
