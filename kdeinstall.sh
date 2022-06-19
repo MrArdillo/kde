@@ -7,7 +7,6 @@ sudo systemctl enable ufw && \
 sudo systemctl enable fstrim.timer && \
 sudo systemctl enable samba.service && \
 sudo systemctl enable bluetooth.service && \
-sudo xone-get-firmware.sh --skip-disclaimer && \
 sudo cp jorge.knsv /mnt/. && \
 sudo mkdir -p /etc/skel/Escritorio && \
 sudo cp Entorno_Jorge.sh /etc/skel/Escritorio/. && \
